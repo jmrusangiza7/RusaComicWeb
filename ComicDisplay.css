@@ -1,0 +1,107 @@
+body{
+    background-image: url("Images/RusaLargerBackground.png");
+	background-repeat: no-repeat;
+    background-size: : 1000px 1000px;
+    background-attachment: fixed;
+    margin: 0;
+    }
+h1{
+    font-family:AR DELANEY;
+	color: #eafb5b;
+	font-size: 50px;
+    text-align: center;
+    padding-left: 50px;
+    }
+h2{
+    font-family: AR DELANEY;
+    color: #eafb5b; 
+    font-size: 25px;
+    text-align: center;
+    padding-left: 50px;
+}
+a{
+    text-align:center;
+    font-family: AR DELANEY; 
+    color: #eafb5b;
+}
+p{
+    font-family: AR DELANEY;
+    color: #eafb5b;
+    font-size: 22px;
+    text-align: center;
+    padding-left: 50px;
+}
+h3, h4{
+    color: yellow;    
+    }
+#gallerywrapper{
+    width:1000px;
+    height:1000px;
+    margin: 0 auto;
+    position:relative;
+    font-family: verdana, arial,sans-serif;
+    }
+#gallerywrapper
+#gallery{
+    position: absolute;
+    left:0;
+    top:0;
+    height:1000px;
+    width:1000px;
+    overflow: hidden;
+    text-align: center;
+    }
+#gallerywrapper
+#gallery div{
+    width:1000px;
+    height:1000px;
+    padding-top: 10px;
+    position: relative;
+    }
+#gallerywrapper
+#gallery div img{
+    clear: both;
+    display: block;
+    margin: 0 auto;
+    border: 0;
+    width:700px;
+    height:700px;
+    }
+.img2{
+    clear: both;
+    display: block;
+    width: 70000px;
+    height: 6000px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+ #gallery .previous{ 
+     display:inline;
+     float:left;
+     margin-left:80px;
+     text-decoration:none;
+     color: yellow;
+ } 
+
+ #gallery .next{ 
+     display:inline;
+     float:right;
+     margin-right:80px;
+     text-decoration:none;
+     color:yellow;
+ }
+.next2{ 
+     display:inline;
+     float:right;
+     margin-right:80px;
+     text-decoration:none;
+     color:yellow;
+ }
+.previous2{ 
+     display:inline;
+     float:left;
+     margin-left:80px;
+     text-decoration:none;
+     color: yellow;
+ } 
